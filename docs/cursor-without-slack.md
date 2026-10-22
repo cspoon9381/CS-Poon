@@ -20,13 +20,20 @@
 ## GitHub 替代（推薦給本 repo）
 
 1. 確認 Integrations 已連 GitHub，且 `cspoon9381/CS-Poon` 在授權範圍內。
-2. 開一個 Issue（或 PR），留言例如：
+2. 在 GitHub 開 **New issue** → 選範本「**Cursor 任務（不用 Slack）**」（見 `.github/ISSUE_TEMPLATE/cursor-task.md`），填任務後送出。
+3. 或在既有 Issue／PR 留言：
 
 ```text
-@cursor 幫我在這個 repo 加一個 hello.py，執行後印出 Hello, CS
+@cursor 幫我改進 hello.py：加上 --name 參數，預設仍印 Hello, CS
 ```
 
-3. Agent 會開 branch、改 code、必要時開 PR；在 [Agents](https://cursor.com/agents) 跟進度。
+4. Agent 會開 branch、改 code、必要時開 PR；在 [Agents](https://cursor.com/agents) 跟進度。
+
+本 repo 另有：
+
+- `AGENTS.md` — 給 Cloud Agent 的短規則
+- `.github/PULL_REQUEST_TEMPLATE.md` — PR 上繼續 `@cursor` 跟進的寫法
+- `hello.py` — 可本地驗證的練習腳本（`python3 hello.py`）
 
 官方說明：[Cloud Agents](https://cursor.com/docs/cloud-agent)、[GitHub 整合](https://cursor.com/docs/integrations/github)。
 
